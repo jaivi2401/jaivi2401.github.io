@@ -1,2 +1,2 @@
-# jaivi2606.github.io
+# jaivi2401.github.io
 personal website
