@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.template-item{
+	background-color:#f0eeee; 
+	padding:35px 40px;
+}
+
+.template-item-title-wrapper{
+	margin-bottom:25px;
+}
+
+.logo-wrapper.custom-size{
+	width:auto;
+	height:auto;
+}
+
+@media screen and (max-width: 1200px) {
+.logo-outter-wrapper{
+	margin-left:40px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.logo-wrapper.custom-size{
+	width:60px;
+	height:60px;
+}	
+
+.logo-outter-wrapper{
+	margin-left:20px;
+}
+
+.template-item{
+	padding:15px 20px;
+}
+}
+
+@media screen and (max-width: 768px) {
+h4{
+	font-size:20px
+}
+
+.template-item{
+	padding:35px 40px;
+	margin-bottom:30px;
+}
+
+}
