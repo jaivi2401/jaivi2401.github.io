@@ -134,7 +134,7 @@
 		//INFO WINDOWS
 		//=======================================================================================
 		var contentString = '<div>'+
-		'WEDDING CEREMONY';
+		'WEDDING CEREMONY - Pragati Mandal';
       	'</div>';
 		
 		var contentString1 = '<div>'+
@@ -158,7 +158,12 @@
 		//ON CLICK MARKER, OPEN INFO WINDOWS
 		//=======================================================================================
 		google.maps.event.addListener(marker1, 'click', function() {
-  			infowindow.open(map,marker1);
+  			infowindow.open(map, marker1);
+  		});
+		google.maps.event.addListener(marker1, 'click', function() {
+   	 		map.setZoom(17);
+    		map.setCenter(marker.getPosition());
+			infowindow1.open(map,marker1);
   		});
 
 		//ON MARKER CLICK EVENTS
